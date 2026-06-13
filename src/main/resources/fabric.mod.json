@@ -10,6 +10,7 @@
     "sources": "https://github.com/Satanas1275/QuickShulker"
   },
   "license": "CC-BY-NC-4.0",
+  "icon": "icon.png",
   "environment": "*",
   "entrypoints": {
     "main": [
