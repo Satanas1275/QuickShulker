@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "id": "quickshulker",
+  "version": "${version}",
+  "name": "QuickShulker",
+  "description": "Hover over shulker boxes in your inventory to see and interact with their contents",
+  "authors": ["Satanas1275"],
+  "contact": {
+    "homepage": "https://github.com/Satanas1275/QuickShulker",
+    "sources": "https://github.com/Satanas1275/QuickShulker"
+  },
+  "license": "CC-BY-NC-4.0",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.quickshulker.QuickShulker"
+    ],
+    "client": [
+      "com.quickshulker.QuickShulkerClient"
+    ]
+  },
+  "mixins": [
+    "quickshulker.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "minecraft": ">=${minecraft_version}",
+    "fabric-api": ">=${fabric_version}",
+    "java": ">=${java_version}"
+  }
+}
